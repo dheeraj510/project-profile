@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="not-ie" lang="en">
+<!--<![endif]-->
+	<head>
+		<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+		<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+		<%= csrf_meta_tags %>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+		<title>Resume</title>
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!--google web font-->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
+		
+		<!--JavaScript-->
+		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	</head>
+
+<body data-spy="scroll" data-offset="61" data-target=".nav-collapse">
+
+<!-- Main Container -->
+<div class="container">
+	<div class="row">
+		<!-- Sidebar -->
+		<div class="span3 sidebar">
+			<!-- nav -->
+			<nav id="nav">
+				<!-- logo -->
+				<div class="logo">
+					<h2>Dheeraj Kumar<span>Ruby On Rails Developer</span></h2>
+				</div>
+				<!-- /logo end -->
+				<!-- mainnav -->
+				<div class="nav-collapse">
+						<ul class="nav">
+							<li><a href="#intro"><i class="icon-fire"><span>Intro</span></i></a></li>
+							<li><a href="#personal"><i class="icon-book"><span>Resume</span></i></a></li>
+							<li><a href="#service"><i class="icon-cogs"><span>Service</span></i></a></li>
+							<li><a href="#works"><i class="icon-suitcase"><span>Works</span></i></a></li>
+							<li><a href="#blog"><i class="icon-pencil"><span>Blog</span></i></a></li>
+							<li><a href="#contact"><i class="icon-envelope-alt"><span>Contact</span></i></a></li>
+						</ul>
+				</div>
+				<!-- /mainnav end -->				
+			</nav>
+			<!-- /nav -->
+			<!-- social link -->
+			<div class="social-list">
+				<ul class="social">
+					<li><a href="https://twitter.com/dheeraj366"><i class="icon-twitter"></i></a></li>
+					<li><a href="https://plus.google.com/u/0/116955941118309753298/posts"><i class="icon-google-plus"></i></a></li>
+					<li><a href="https://www.linkedin.com/profile/view?id=104943951&trk=nav_responsive_tab_profile"><i class="icon-linkedin"></i></a></li>
+					<li><a href="https://github.com/dheeraj510"><i class="icon-github"></i></a></li>
+					<li><a href="https://www.facebook.com/dheerajchilappagari"><i class="icon-facebook"></i></a></li>	
+				</ul>
+			</div>
+			<!-- /social link end -->			
+		</div>
+		<!-- Sidebar -->
+		<!-- Content Section -->
+		<div class="span9 content offset3">
+			<!-- Intro -->
+			<section id="intro" class="section intro">
+				<div class="row">
+					<div class="span8">
+						<%= image_tag "avater/2.jpg", class: "img-circle" %>
+						<h2>Dheeraj Kumar</h2>
+						<hr>
+						<h3>I'm a India based Ruby on Rails Developer, creating modern dynamic web application is my passion, I am a rails hacker and an open source evangelist. 
+						</h3>
+						<hr>
+					</div>
+				</div>
+			</section>
+			<!-- /Intro end -->
+
+			<!-- personal Info -->
+			<section id="personal" class="section mtcon">
+				<!-- heading -->
+				<div class="row">
+					<h2 class="mtcon-title">Resume</h2>
+					<div class="span8 short-dec">
+						<!-- <p>The Sky People have sent us a message... that they can take whatever they want. That no one can stop them. Well, we will send them a message. You ride out as fast as the wind can carry you. You tell the other clans to come. Tell them Toruk Macto calls to them! You fly now, with me! My brothers! Sisters! And we will show the Sky People... that they cannot take whatever they want! And that this... this is our land! </p> -->
+					</div>
+				</div>	
+				<!-- /heading -->
+
+				<div class="row">
+					<div class="span9">
+						<!-- Experience coll -->
+						<div class="coll">
+							<!-- Item Head -->
+								<div class="coll-item">
+									<div class="coll-head">
+										<span class="icon-lightbulb"><i></i></span>
+									</div>
+									<div class="coll-arrow"><i></i></div>
+									<div class="coll-head-content">
+											<h3>Work Experience</h3>
+									</div>
+								</div>
+							<!-- /Item Head end -->
+							<!-- first item of coll -->
+							<div class="coll-item">
+								<div class="coll-item-date">2014 - now</div><!-- date -->
+									<!-- coll item trigger -->
+									<div class="coll-item-trigger">
+										<span class="icon-minus-sign" data-toggle="collapse" data-target="#job1"><i></i></span>
+									</div>
+									<!-- /end of coll item trigger -->
+									<div class="coll-arrow"><i></i></div>
+									<!-- coll main content -->
+									<div class="coll-item-content">
+										<h3 data-toggle="collapse" data-target="#job1">Software Engineer @ Enbake</h3>
+										<div class="collapse in" id="job1">
+											<p><small class="muted">from 2014 to present day</small></p>
+											<h4 class="media-heading primary-color">Enbake</h4>
+											<p>Enbake offer end to end application consulting and implementation services. Enbake is a one stop shop for all mobile and web application development needs.Whether its your killer startup idea or taking your existing solution to iPhone/iPad and Android, Enbake's team of experts will ensure an optimal solution delivered at your budget and timelines.Use Managed Open Source CRM/ERP Servers(vTiger, SugarCRM, WebERP) for your Business</p>
+											<!-- <p><a href="http://enbake.com" title="" class="noprint">&rarr; View website</a></p> -->
+										</div>
+								    </div>
+								 	<!-- /end of coll main content -->  
+							</div>
+							<!-- /end of first item of coll -->
+
+							<!-- coll item -->
+							<div class="coll-item">
+								<div class="coll-item-date">2013 - 2014</div><!-- date -->
+									<div class="coll-item-trigger">
+										<span class="icon-plus-sign" data-toggle="collapse" data-target="#job2"><i></i></span>
+									</div>
+									<div class="coll-arrow"><i></i></div>
+									<!-- coll main content -->
+									<div class="coll-item-content">
+										<h3 data-toggle="collapse" data-target="#job2">Junior Ror Developer @ DiscoveryAnaltics.Inc -India</h3>
+										<div class="collapse" id="job2">
+											<p><small class="muted">from 2010 to 2011</small></p>
+											<h4 class="media-heading primary-color">DiscoveryAnaltics</h4>
+											<p>DiscoveryAnaltics is a software development company that specializes in Ruby on Rails,.Net,PHP application development.The company was built carefully and gradually over a period of five years, a 1,500-person business process outsourcing company.The company has experience in projects of varying scale – our most recent activity (just coming to a close) has been a multi-million dollar, two year project for a Fortune 100 banking giant.</p>
+										</div>
+									</div>
+									<!-- /end of coll content -->
+							</div>
+							<!-- /end of coll item -->
+						
+						</div>
+						<!-- /Experience coll end -->
+
+
+						<!-- Education coll -->
+						<div class="coll">
+							<!-- Item Head -->
+								<div class="coll-item">
+									<div class="coll-head">
+										<span class="icon-certificate"><i></i></span>
+									</div>
+									<div class="coll-arrow"><i></i></div>
+									<div class="coll-head-content">
+											<h3>Education</h3>
+									</div>
+								</div>
+							<!-- /Item Head end -->
+							<!-- first item of coll -->
+							<div class="coll-item">
+								<div class="coll-item-date">2009 - 2013</div><!-- date -->
+									<!-- coll item trigger -->
+									<div class="coll-item-trigger">
+										<span class="icon-minus-sign" data-toggle="collapse" data-target="#edu1"><i></i></span>
+									</div>
+									<!-- /end of coll item trigger -->
+									<div class="coll-arrow"><i></i></div>
+									<!-- coll main content -->
+									<div class="coll-item-content">
+										<h3 data-toggle="collapse" data-target="#edu1">B.Tech Computer Science</h3>
+										<div class="collapse in" id="edu1">
+											<p><small class="muted">from 2009 to 2013</small></p>
+											<h4 class="media-heading primary-color">Jntu Kondagattu</h4>
+											<p>JNTUHCEJ which aims to be an institute of excellence in training the students to meet the global needs is supported by highly experienced, well qualified, veteran professors drawn from research and industry. Most of the faculty excel in their respective domains and are renowned for their accomplishment of doctoral and post doctoral degrees. They leave no stone unturned in imparting knowledge and skills to the students. With their commitment and pen chance to groom the students to outshine in academics and improve employability skills to reach their desired destination, the faculty relentlessly dedicate themselves to achieve the vision of the College. I was trained under the guideance of Dr.S.Viswanadha Raju Professor of CSE, Dr.T.Venugopal Assoc Prof, P.Swetha Assoc Prof, Sri Joshi Shripad Asst Prof, Dr.P.Sammulal Asst Prof, Sri B.Kranthi Kiran Asst Prof. I thank each and every one for your guideance</p>
+											<p><a href="http://jntuhcej.ac.in" title="" class="noprint">&rarr; View website</a></p>
+										</div>
+								    </div>
+								 	<!-- /end of coll main content -->  
+							</div>
+							<!-- /end of first item of coll -->
+
+						</div>
+						<!-- /Education coll end -->						
+					</div><!--span9-->
+				</div>
+			</section>
+			<!-- /Personal Info end -->
+			<!-- Service -->
+			<section id="service" class="section mtcon">
+				<!-- heading -->
+				<div class="row">
+					<h2 class="mtcon-title">Service</h2>
+					<div class="span8 short-dec">
+					</div>
+				</div>	
+				<!-- /heading -->
+				<!-- service content -->
+				<div class="row service">
+					<div class="box">
+						<%= image_tag "services/1.png" %>
+						<h2>Dynamic</h2>
+					</div>
+					<div class="box">
+						<%= image_tag "services/2.png" %>
+						<h2>Responsive</h2>
+					</div>
+					<div class="box">
+						<%= image_tag "services/3.png" %>
+						<h2>Development</h2>
+					</div>
+				</div>
+				<!-- /service content end -->
+				<!-- skills -->
+				<div class="row skills">
+					<h2 class="mtcon-title">Skills</h2>
+					<div class="span8">
+						<h4>RUBY</h4>
+							<div class="progress-bar blue stripes shine">
+							    <span style="width: 70%"></span>
+							</div>
+						<h4>Rails</h4>
+							<div class="progress-bar blue stripes shine">
+								<span style="width: 85%"></span>
+							</div>								
+						<h4>Database</h4>
+							<div class="progress-bar blue stripes shine">
+								<span style="width: 80%"></span>
+							</div>					
+						<h4>Servers</h4>
+							<div class="progress-bar blue stripes shine">
+								<span style="width: 75%"></span>
+							</div>
+								
+					</div>			
+				</div><!-- /skills end -->
+			</section>
+			<!-- /Service end -->
+
+			<!-- Works -->
+			<section id="works" class="section mtcon">
+				<!-- heading -->
+				<div class="row">
+					<h2 class="mtcon-title">Works</h2>
+					<div class="span8 short-dec">
+					</div>
+				</div>	
+				<!-- /heading -->
+				<!-- Portfolio -->
+				<div class="row">
+					<!-- #options -->
+	                <div id="options" class="clearfix">
+	                    <ul id="filters" class="option-set clearfix" data-option-key="filter">
+	                        <li><a href="#filter" data-option-value="*" class="selected">all works</a></li>
+	                        <li><a href="#filter" data-option-value=".webdesign">UI</a></li>
+	                        <li><a href="#filter" data-option-value=".uidesign">DATABASE</a></li>
+	                        <li><a href="#filter" data-option-value=".branding">TESTING</a></li>     
+	                        <li><a href="#filter" data-option-value=".logodesign">SERVER</a></li>
+	                        <li><a href="#filter" data-option-value=".illustration">PROJECT MANAGEMENT</a></li>
+	                      <!--  -->
+	                    </ul>
+	                    <ul class="info">
+	                    	<li><span> Best UI</span></li>
+	                        <li><%= image_tag "1.jpg" %></li>
+	                        <li><span> Great Databases</span></li>
+	                     	<li><%= image_tag "3.jpg" %></li>
+	                     	<li><span> Testing</span></li>
+	                     	<li><%= image_tag "4.jpg" %></li>
+	                     	<li><span> Super Servers</span></li>
+	                     	<li><%= image_tag "5.jpg" %></li>
+	                     	<li><span> Project Management Tools</span></li>
+	                     	<li><%= image_tag "6.jpg" %></li>
+	                    </ul>								
+	                </div> 
+	                <!-- #options end-->
+
+			</section>
+			<!-- /Works end -->	
+
+			<!-- Blog -->
+			<section id="blog" class="section mtcon">
+				<!-- heading -->
+				<div class="row">
+					<h2 class="mtcon-title">Blog</h2>
+				</div>	
+				<!-- /heading -->
+				<div class="row">
+					<div class="blog">
+					    <!-- normal post -->
+						<div class="block">
+							<div class="view view-first">
+								<div class="tringle"></div>
+								<%= image_tag "post1.jpg" %>>
+							</div>
+							<div class="des">
+                                <h4><a href="http://helloror.blogspot.in/">Welcome to Ruby On Rails Blog</a></h4>
+                                <h4><a href="http://technoeditor.blogspot.in/">Welcome to Latest technology news Blog</a></h4>
+                                <p></p>
+                            	<div class="meta">
+                                	<hr>
+                                	<div class="clearfix"></div>
+                                </div><!-- .meta end-->                                  
+                            </div><!-- .des end-->
+						</div><!-- .block end-->
+						<!-- /normal post end-->
+					</div>
+				</div>
+			</section>
+			<!-- /Blog end -->	
+			<!-- Contact -->
+			<section id="contact" class="section mtcon">
+				<!-- heading -->
+				<div class="row">
+					<h2 class="mtcon-title">Contact</h2>
+				</div>	
+				<!-- /heading -->
+				<div id="map-content" class="map"></div>
+				<div class="row contact">
+					<div class="span4">
+						<p></p>
+						<ul class="info">
+							<li><i class="icon-home"></i><span> Hyderabad</span></li>
+							<li><i class="icon-phone"></i><span> +918285855857</span></li>
+							<li><i class="icon-envelope"></i><span> send2dheerajsharma@gmail.com</span></li>
+						</ul>
+					</div>
+			</section>
+			<!-- /Contact end -->
+			<footer><p>&copy;2014 Designed By Dheeraj(no copy rights, Fully opensource, mail me for code)</p></footer>	
+		</div>
+		<!-- Content Section -->
+	</div>
+</div>
+<!-- Main Container end -->
+<a class="scroll-top" href="#" title="Scroll to top">Top</a>
+</body>
+</html>
